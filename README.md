@@ -8,12 +8,13 @@ I created this script as a challenge to myself. I asked one of my colleagues who
 
 ## Usage
 
-The script does not have any requirements and can be ran straight from Idle. It will prompt to enter:
+The script does not have any requirements and can be ran straight from Idle or another interpreter. It will prompt to enter:
 
-ip, subnet
+- ip
+- subnet
 
-where subnet can either be a decimal ip value or CIDR. 
+where subnet can either be a decimal ip value or CIDR. Once these values are inputted, the script outputs the broadcasting address.
 
 ## Process
 
-The script performs basic validation on the IP and the subnet mask / CIDR. After this, it builds the broadcasting address one octet at a time. This probably isn't the best way to do this, but I wanted to build this without outside help.
+The script performs basic validation on the IP and the subnet mask / CIDR. After this, it builds the broadcasting address one octet at a time. 
